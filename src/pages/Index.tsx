@@ -15,7 +15,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <GraduationCap className="w-8 h-8 text-primary" />
-              <h1 className="text-2xl font-bold">Student Attendance System</h1>
+              <h1 className="text-2xl font-bold">GLBITM SAS</h1>
             </div>
             <Button 
               variant="outline" 
