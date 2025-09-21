@@ -9,7 +9,7 @@ export const VENUE_LOCATION: Location = {
   longitude: 77.51992844777615
 };
 
-export const ALLOWED_RADIUS = 100; // meters
+export const ALLOWED_RADIUS = 10; // meters
 
 export function calculateDistance(pos1: Location, pos2: Location): number {
   const R = 6371e3; // Earth's radius in meters
