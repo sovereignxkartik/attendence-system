@@ -5,8 +5,8 @@ export interface Location {
 
 // Demo venue location (simulated university campus)
 export const VENUE_LOCATION: Location = {
-  latitude: 28.500567997413672,
-  longitude: 77.51879381070623
+  latitude: 28.49985140095136,
+  longitude: 77.51992844777615
 };
 
 export const ALLOWED_RADIUS = 10; // meters
