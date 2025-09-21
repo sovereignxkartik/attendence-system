@@ -25,8 +25,8 @@ export interface LocationValidation {
   message: string;
 }
 
-export const SECTIONS = ['Section A', 'Section B', 'Section C', 'Section D'] as const;
-export const EVENTS = ['Annual Day', 'Sports Meet', 'Cultural Fest', 'Academic Conference'] as const;
+export const SECTIONS = ['CSAI-1', 'CSAI-2', 'CSAI-3', 'CSAI-4'] as const;
+export const EVENTS = ['Technical Training', 'Verbal Lecture', 'Aptitude Lecture', 'CDC Event'] as const;
 
 export type Section = typeof SECTIONS[number];
 export type Event = typeof EVENTS[number];
